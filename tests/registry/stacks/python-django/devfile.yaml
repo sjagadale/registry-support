@@ -10,7 +10,7 @@ starterProjects:
 components:
   - name: py-web
     container:
-      image: quay.io/eclipse/che-python-3.7:nightly
+      image: registry.redhat.io/codeready-workspaces/plugin-java8-openj9-rhel8
       mountSources: true
       endpoints:
         - name: web
